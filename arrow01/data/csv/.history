@@ -1,0 +1,16 @@
+select a,b from csv01;
+create table (a varchar(64), b varchar(64) );
+create table ( a string, b string);
+create table datos ( a string, b string);
+create table dato ();
+create external table dato ();
+create external table dato (a not null);
+create external table;
+create external table a;
+create external table b stored as csv;
+create external table b stored as csv location;
+create external table b stored as csv location 'csv01.csv';
+select * from b;
+select a from b;
+create external table dato ( a int, b int)  stored as csv with header row location 'csv02.csv';
+select a,b from dato;
